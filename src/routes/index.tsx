@@ -2,13 +2,13 @@ import React from 'react';
 
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Home from '../screens/Home';
+import * as Views from '../screens';
 
 const { Navigator, Screen } = createStackNavigator();
 
 const Routes: React.FC = () => (
   <Navigator>
-    <Screen name="Home" component={Home} />
+    <Screen name="Home" component={Views.Home} />
   </Navigator>
 );
 
