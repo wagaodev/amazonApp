@@ -7,7 +7,7 @@ import * as Views from '../screens';
 const { Navigator, Screen } = createStackNavigator();
 
 const Routes: React.FC = () => (
-  <Navigator>
+  <Navigator screenOptions={{ headerShown: false }}>
     <Screen name="Home" component={Views.Home} />
   </Navigator>
 );
