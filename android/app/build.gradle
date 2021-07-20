@@ -105,19 +105,7 @@ project.ext.vectoricons = [
         'FontAwesome5_Regular.ttf'
      ] // Name of the font files you want to copy
 ]
-
-  
-
-
-  
-
-  
-
-  
-
-apply
- and localeCompare`
-  from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 
 /**

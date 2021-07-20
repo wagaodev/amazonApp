@@ -3,6 +3,8 @@ import { SafeAreaView, StatusBar, useColorScheme } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
+import { Home } from './src/screens';
+
 const App: React.FC = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -12,6 +14,7 @@ const App: React.FC = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
+      <Home />
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
     </SafeAreaView>
   );
