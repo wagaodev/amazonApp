@@ -5,7 +5,7 @@ import * as Styles from './styles';
 const Home: React.FC = () => {
   return (
     <Styles.Container>
-      <Styles.Title>Hello World Again, sorry im stupid</Styles.Title>
+      <Styles.Title>EAI CARALHO</Styles.Title>
     </Styles.Container>
   );
 };
